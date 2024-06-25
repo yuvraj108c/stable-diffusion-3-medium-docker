@@ -25,13 +25,13 @@
 ```bash
 docker run -d \
   --gpus all \
-  -p 8888:8888 \
+  -p 8192:8192 \
   yuvraj108c/sd-3-medium:latest
 ```
 
 ## Building the docker image
 ```bash
-git clone https://github.com/yuvraj108c/sd-forge-docker.git
-cd sd-forge-docker
+git clone https://github.com/yuvraj108c/stable-diffusion-3-medium-docker
+cd stable-diffusion-3-medium-docker
 docker-compose build latest
 ```
