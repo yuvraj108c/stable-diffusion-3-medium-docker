@@ -35,3 +35,6 @@ git clone https://github.com/yuvraj108c/stable-diffusion-3-medium-docker
 cd stable-diffusion-3-medium-docker
 docker-compose build latest
 ```
+
+## Credits
+https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers/discussions/19
