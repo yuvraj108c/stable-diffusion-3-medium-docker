@@ -10,6 +10,9 @@
 </p>
 </div>
 
+> [!NOTE]
+> Stable Diffusion 3 is gated. You have to accept the terms & conditions on https://huggingface.co/stabilityai/stable-diffusion-3-medium. Then create an environment variable `HF_TOKEN` with your huggingface token.
+> 
 ## Tags
 | Tag    | Description              | Size      |
 | ------ | ------------------------ | --------- |
@@ -19,13 +22,19 @@
 
 | Connect Port | Internal Port | Description |
 | ------------ | ------------- | ----------- |
-| 8192         | 8192          | SD 3 Webui  |
+| 8912         | 8912          | SD 3 Webui  |
+
+## Environment Variables
+
+| Variable | Description       |
+| -------- | ----------------- |
+| HF_TOKEN | Huggingface Token |
 
 ## Running locally
 ```bash
 docker run -d \
   --gpus all \
-  -p 8192:8192 \
+  -p 8912:8912 \
   yuvraj108c/sd-3-medium:latest
 ```
 
