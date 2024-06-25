@@ -33,6 +33,12 @@ docker run -d \
 ```bash
 git clone https://github.com/yuvraj108c/stable-diffusion-3-medium-docker
 cd stable-diffusion-3-medium-docker
+
+# download HF models
+pip install torch diffusers transformers accelerate sentencepiece gradio protobuf
+python app.py
+
+# build image
 docker-compose build latest
 ```
 
