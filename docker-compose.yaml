@@ -18,6 +18,7 @@ services:
               capabilities: [ gpu ]
     ports:
       - 8912:8912 # sd3 gradio
+      - 8888:8888 # jupyterlab
     # command: /bin/bash
     # tty: true
     # stdin_open: true
