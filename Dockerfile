@@ -15,4 +15,4 @@ COPY ./cache ./cache
 
 COPY --chmod=755 scripts/* ./
 
-CMD ["./start.sh"]
+CMD ["/workspace/stable-diffusion-3-medium/start.sh"]
